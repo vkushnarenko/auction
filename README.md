@@ -1,15 +1,13 @@
 # README
 
-**Iteration #1: Users** 
+**Iteration #2: Create Auctions** 
 
 Tasks
 
-* Create User model with attributes: 
-`email,
-password,
-full name`
-* All attributes are required, add validations
-* Add registration form
-* Add "My Account" page on which information about user is displayed
-* Allow users login and logout; "My Account" should be default page for authorized users 
+* Add "My Auctions" page with link to "New Auction" form
+* Create Auction model; it should be related to User and has next attributes:
+`name of item, image of item, detailed description, starting price, starting time, 
+duration in days`
+* User's auctions should be shown on "My Auctions" page 
+* Started auctions can not be deleted or edited: add validations 
 * Write unit and functional tests
