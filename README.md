@@ -4,12 +4,14 @@
 
 Tasks
 
-* Create User model with attributes: 
+* Create User model with attributes: _[Done]_
 `email,
 password,
 full name`
 * All attributes are required, add validations
-* Add registration form
+* Add registration form _[Done]_
 * Add "My Account" page on which information about user is displayed
-* Allow users login and logout; "My Account" should be default page for authorized users 
+* Allow users login and logout;_[Done]_ 
+* "My Account" should be default page for authorized users 
 * Write unit and functional tests
+
