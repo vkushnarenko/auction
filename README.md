@@ -1,26 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Iteration #1: Users** 
 
-Things you may want to cover:
+Tasks
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-Develop - branch
+* Create User model with attributes: 
+`email,
+password,
+full name`
+* All attributes are required, add validations
+* Add registration form
+* Add "My Account" page on which information about user is displayed
+* Allow users login and logout; "My Account" should be default page for authorized users 
+* Write unit and functional tests
