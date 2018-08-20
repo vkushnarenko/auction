@@ -5,3 +5,9 @@
 .alert-alert {
   @extend .alert-danger !optional;
 }
+.user-name {
+  color: #C1C1C1;
+  font-family: Arial;
+  font-size: 13.5px;
+  text-transform: uppercase;
+}
