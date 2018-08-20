@@ -8,10 +8,10 @@ Tasks
 `email,
 password,
 full name`
-* All attributes are required, add validations
+* All attributes are required, add validations _[Done]_
 * Add registration form _[Done]_
 * Add "My Account" page on which information about user is displayed
 * Allow users login and logout;_[Done]_ 
-* "My Account" should be default page for authorized users 
+* "My Account" should be default page for authorized users _[Done]_
 * Write unit and functional tests
 
