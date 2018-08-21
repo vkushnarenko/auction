@@ -1,4 +1,5 @@
 <h1> My account </h1>
-<%= @user.full_name %>
-<%= @user.email %>
-<%= link_to "Change my info", edit_user_registration_path %>
+
+<% for attribute in @user.attributes.keys %>
+  <p><%= attribute.humanize %> : <%= @user.attributes[attribute].to_s %></p>
+<% end %>
