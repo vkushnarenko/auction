@@ -13,5 +13,5 @@ full name`
 * Add "My Account" page on which information about user is displayed _[Done]_
 * Allow users login and logout;_[Done]_ 
 * "My Account" should be default page for authorized users _[Done]_
-* Write unit and functional tests
+* Write unit and functional tests _[Done with 1 feature test]_ 
 
