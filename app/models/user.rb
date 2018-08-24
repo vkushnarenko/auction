@@ -4,6 +4,8 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
+  has_many :lots
+
   validates  :full_name, presence: true
   validates_format_of :full_name, :with => /\A[^0-9`!@#\$%\^&*+_=]+\z/
 
